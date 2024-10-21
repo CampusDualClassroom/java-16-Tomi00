@@ -7,10 +7,19 @@ public class Exercise16 {
 		Tractor tractor = new Tractor(3500);
 
 		plane.start();
-		tractor.start();
-
+		plane.takeOff();
 		plane.fly();
+		plane.land();
+		plane.stop();
+
+		tractor.start();
 		tractor.forward();
+		tractor.backward();
+		tractor.stop();
+
+		plane.maintenance();
+		tractor.maintenance();
+
 
 	}
 
